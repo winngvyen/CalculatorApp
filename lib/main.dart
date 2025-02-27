@@ -16,7 +16,7 @@ class _CalculatorAppState extends State<CalculatorApp> {
   int num1 = 0; // First operand
   int num2 = 0; // Second operand
 
-  // Handles button click events
+  // Handles button events 
   void onButtonClick(String value) {
     setState(() {
       if (value == "C") {
